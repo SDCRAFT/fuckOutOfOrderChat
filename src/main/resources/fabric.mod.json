@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fuck_out_of_order_chat",
+  "version": "${version}",
+  "name": "fuckOutOfOrderChat",
+  "description": "remove when chat packet out of order kick player",
+  "authors": [
+    "heartalborada"
+  ],
+  "contact": {
+    "repo": "https://github.com/heart/fuckOutOfOrderChat"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fuckOutOfOrderChat/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "me.heartalborada.fuckoutoforderchat.FuckOutOfOrderChat"
+    ]
+  },
+  "mixins": [
+    "fuckOutOfOrderChat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

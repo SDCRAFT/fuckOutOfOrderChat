@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.heartalborada.fuckoutoforderchat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "outOfOrderPacket"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
